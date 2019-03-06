@@ -1,0 +1,4 @@
+Neutral Light Color: #222629
+Neutral Dark Color: 16191b
+Light Color: #ff4500
+Dark Color: #b33000
