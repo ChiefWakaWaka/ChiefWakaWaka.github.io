@@ -4,8 +4,8 @@ body {
 }
 
 hr {
-  color: #ff4500;
-  color: #ff4500;
+  color: #21ce23;
+  color: #21ce23;
   width: 50%;
 }
 
@@ -13,10 +13,10 @@ button {
   display: inline-block;
   background-color: #222629;
   border: solid;
-  border-color: #b33000;
+  border-color: #106611;
   border-width: thick;
   border-radius: 20%;
-  color: #b33000;
+  color: #106611;
   font-size: 20px;
   margin-left: 10px;
   margin-right: 10px;
@@ -24,8 +24,8 @@ button {
 }
 
 button:hover {
-  border-color: #ff4500;
-  color: #ff4500;
+  border-color: #21ce23;
+  color: #21ce23;
 }
 
 div.hidden {
@@ -33,13 +33,15 @@ div.hidden {
 }
 
 .titleText {
-  color: #ff4500;
+  font-size: 30px;
+  color: #21ce23;
   text-align: center;
   padding-top: 10%;
 }
 
 .welcome {
-  color: #ff4500;
+  font-size: 50px;
+  color: #21ce23;
   text-align: center;
   padding-top: 10%;
 }

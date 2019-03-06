@@ -1,0 +1,51 @@
+body {
+  background-color: #222629;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+hr {
+  color: #0000dc;
+  color: #0000dc;
+  width: 50%;
+}
+
+button {
+  display: inline-block;
+  background-color: #222629;
+  border: solid;
+  border-color: #0000be;
+  border-width: thick;
+  border-radius: 20%;
+  color: #0000be;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px 10px;
+}
+
+button:hover {
+  border-color: #0000dc;
+  color: #0000dc;
+}
+
+div.hidden {
+  display = none;
+}
+
+.titleText {
+  font-size: 30px;
+  color: #0000dc;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.welcome {
+  font-size: 50px;
+  color: #0000dc;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.buttons {
+  text-align: center;
+}

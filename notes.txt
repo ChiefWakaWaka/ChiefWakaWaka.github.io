@@ -1,4 +1,13 @@
-Neutral Light Color: #222629
-Neutral Dark Color: 16191b
-Light Color: #ff4500
-Dark Color: #b33000
+Neutral: #222629
+
+Orange:
+Light: #ff4500
+Dark: #b33000
+
+Green:
+Light: #21ce23
+Dark: #106611
+
+Blue:
+Light: #0000dc
+Dark: #0000be
