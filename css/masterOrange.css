@@ -5,7 +5,6 @@ body {
 
 hr {
   color: #ff4500;
-  color: #ff4500;
   width: 50%;
 }
 
@@ -23,6 +22,20 @@ button {
   padding: 5px 10px;
 }
 
+table, td, tr {
+  border: solid;
+  border-width: medium;
+  border-color: #b33000;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+table {
+  font-size: 20px;
+  width: 60%;
+  margin: auto;
+}
+
 button:hover {
   border-color: #ff4500;
   color: #ff4500;
@@ -32,11 +45,15 @@ div.hidden {
   display = none;
 }
 
-.titleText {
+.titleText, .projectsText {
   font-size: 30px;
   color: #ff4500;
   text-align: center;
   padding-top: 10%;
+}
+
+.borderlessButton {
+  border: none;
 }
 
 .welcome {
@@ -48,4 +65,26 @@ div.hidden {
 
 .buttons {
   text-align: center;
+}
+
+.projectsList {
+  width: 10%
+  text-align: center;
+  color: #b33000;
+}
+
+.backButton {
+  text-align: center;
+  bottom: 0;
+}
+
+html {
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE 10+ */
+}
+
+.container::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
 }

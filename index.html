@@ -13,11 +13,40 @@
   <div class="titleText" class="hidden">
     <h1>WALKER DAVIS</h1>
     <hr>
+    <br>
   </div>
-  <br>
   <div class="buttons" class="hidden">
-    <button type="button" name="button" onclick="window.location.href='https://github.com/ChiefWakaWaka'">Github</button>
-    <button type="button" name="button" onclick="window.location.href='https://www.instagram.com/chiefwakawaka03/'">Instagram</button>
-    <button type="button" name="button" onclick="window.location.href='https://www.collegeswimming.com/swimmer/563346/'">College Swimming</button>
+    <button type="button" name="githubButton" onclick="window.location.href='https://github.com/ChiefWakaWaka'">Github</button>
+    <button type="button" name="instagramButton" onclick="window.location.href='https://www.instagram.com/chiefwakawaka03/'">Instagram</button>
+    <button type="button" name="collgeSwimmingButton" onclick="window.location.href='https://www.collegeswimming.com/swimmer/563346/'">College Swimming</button>
+    <button type="button" name="projectButton" onclick="projectClick()">Projects</button>
+  </div>
+  <div class="projectsText" class="hidden">
+    <h1>PROJECTS</h1>
+    <hr>
+    <br>
+  </div>
+  <div class="projectsList" class="hidden">
+    <table>
+      <tr>
+        <td id="title">Personal Website</td>
+        <td id="description">This is my own personal website (the one you're on right now.)</td>
+        <td id="link"> <button class="borderlessButton" name="moreInfoButton" onclick="window.location.href='https://chiefwakawaka.github.io'")>More Info</button> </td>
+      </tr>
+      <tr>
+        <td id="title">Hackathon 2019</td>
+        <td id="description">I worked with Sami Saliba and Henry Pritchard to create a prototype for a "Classroom Reddit." Students can use this to anonymously ask and answer questions during lectures.</td>
+        <td id="link"> <button class="borderlessButton" name="moreInfoButton" onclick="window.location.href='https://github.com/ChiefWakaWaka/Hackathon-2019'")>More Info</button> </td>
+      </tr>
+      <tr>
+        <td id="title">Handwritten number classification</td>
+        <td id="description">This project uses the scikit-learn python library to identify handwritten numbers.</td>
+        <td id="link"> <button class="borderlessButton" type="button" name="moreInfoButton">Incomplete</button> </td>
+      </tr>
+    </table>
+  </div>
+  <div class="backButton" class"hidden">
+    <br>
+    <button type="backButton" name="button" onclick="returnHome()">BACK</button>
   </div>
 </body>
