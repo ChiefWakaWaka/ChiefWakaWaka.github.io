@@ -25,4 +25,4 @@ function returnHome() {
   $('.backButton').fadeOut(1000);
   $('.titleText').delay(1000).fadeIn(1000);
   $('.buttons').delay(1000).fadeIn(1000);
-}
+};
