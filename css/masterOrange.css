@@ -4,7 +4,7 @@ body {
 }
 
 hr {
-  color: #ff4500;
+  border-color: #ff4500;
   width: 50%;
 }
 
@@ -45,7 +45,7 @@ div.hidden {
   display = none;
 }
 
-.titleText, .projectsText {
+.titleText, .projectsText, .swimmingText {
   font-size: 30px;
   color: #ff4500;
   text-align: center;
@@ -63,11 +63,11 @@ div.hidden {
   padding-top: 10%;
 }
 
-.buttons {
+.buttons, .swimmingButtons {
   text-align: center;
 }
 
-.projectsList {
+.projectsList, .swimmingTimes {
   width: 10%
   text-align: center;
   color: #b33000;
