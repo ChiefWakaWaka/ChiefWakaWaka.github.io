@@ -8,6 +8,7 @@ $(document).ready(function(){
   $('.swimmingButtons').css('display', 'none');
   $('.swimmingText').css('display', 'none');
   $('.swimmingTimes').css('display', 'none');
+  $('.swimmingMeets').css('display', 'none');
   $('.welcome').fadeIn(1000);
   $('.welcome').delay(1000).fadeOut(1000);
   $('.titleText').delay(3000).fadeIn(1000);
@@ -32,7 +33,13 @@ function swimmingClick() {
 }
 
 function swimmingTimesClick() {
+  $('.swimmingMeets').fadeOut(1000);
   $('.swimmingTimes').delay(1000).fadeIn(1000);
+}
+
+function swimmingMeetsClick() {
+  $('.swimmingTimes').fadeOut(1000);
+  $('.swimmingMeets').delay(1000).fadeIn(1000);
 }
 
 function returnHome() {
@@ -41,6 +48,7 @@ function returnHome() {
   $('.swimmingButtons').fadeOut(1000);
   $('.swimmingText').fadeOut(1000);
   $('.swimmingTimes').fadeOut(1000);
+  $('.swimmingMeets').fadeOut(1000);
   $('.backButton').fadeOut(1000);
   $('.titleText').delay(1000).fadeIn(1000);
   $('.buttons').delay(1000).fadeIn(1000);

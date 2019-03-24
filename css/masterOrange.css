@@ -67,7 +67,7 @@ div.hidden {
   text-align: center;
 }
 
-.projectsList, .swimmingTimes {
+.projectsList, .swimmingTimes, .swimmingMeets {
   width: 10%
   text-align: center;
   color: #b33000;
